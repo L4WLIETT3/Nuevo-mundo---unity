@@ -23,7 +23,7 @@ public class Playermovement : MonoBehaviour
             }
         
         }
-        _rigidbody2D.velocity = new Vector2(1 * _movementSpeed, _rigidbody2D.velocity.y);
+        _rigidbody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidbody2D.linearVelocity.y);
     }
 }
 
